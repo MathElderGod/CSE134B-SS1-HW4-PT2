@@ -1,0 +1,41 @@
+body {
+    display: block;
+    text-align: center;
+    padding: 1.0em;
+}
+
+#load-local-button, #load-remote-button  {
+    font-size: 2.0em;
+    font-weight: bold;
+    padding: 0.5em;
+    margin: 2.0em;
+    border: 3px solid black;
+    border-radius: 2.0em;
+}
+
+#local-storage-heading, #remote-storage-heading {
+    font-size: 2.0em;
+    font-weight: bold;
+}
+
+button:hover {
+        box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two columns each taking up an equal fraction of the available space */
+    gap: 20px;
+    /* Gap between grid items */
+}
+
+section {
+    padding: 0;
+    margin: 0;
+}
+
+#local-storage-cards, #remote-storage-cards {
+    padding: 0;
+    margin: 0;
+}
