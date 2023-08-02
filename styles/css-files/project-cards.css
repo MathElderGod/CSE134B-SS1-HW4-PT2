@@ -33,7 +33,7 @@ project-card {
 
 .project-img {
     align-self: center;
-    width: 15vw;
+    width: 20vw;
     height: 15vw;
     border: 5px solid var(--licorice);
     border-radius: 1.0em;
